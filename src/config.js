@@ -47,7 +47,7 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    },
    error: {
    Iv: "Link yang kamu berikan tidak valid",
-   tombol: "Silahkam Masukkan prameter on/off",
+   tombol: "Silahkam Masukkan parameter on/off",
    forget: "Silahkan Masukkan Teks Anda."
    },
    simple: {
@@ -55,25 +55,25 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    credentials: "credentials updated!",
    opendocs: "open docs is complete!", 
    readBaileys: "berhasil masuk ke dalam baileys",
-   connecting: "Menghubungkan",
-   refresh: "Berhasil Perbarui Jaringan\n"
+   connecting: "Menghubungkan jaringan",
+   refresh: "Berhasil Memperbarui Jaringan\n"
    },
    prefix: ["/"],
    gexp: 50,
    limit: 100,
-   eror: "Sepertinya Eror",
-   waits: "Sedang di proses",
+   eror: "Error not found",
+   waits: "Tunggu...sedang di proses....",
    butmag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHDLrd0_DwHnJfuZ_pRMOAbLi3-ot-NxyPA&usqp=CAU',
-   packname: "RIXLE-BOT-OFFICIAL",
-   author: '@_fearTeam',
+   packname: "Home-Alone ^_^",
+   author: '+62 857-7059-8246 Add friend dude',
     setting: {
-    admin: "only admin",
-    group: "only group",
-    owner: "owner only pack",
-    jadibot: "jadibot only",
-    botadmin: "bot harus menjadi admin",
-    daftar: "belum terdaftar silahkan ketik prefix + verify ",
-    nsfw: "FITUR BELUM DIAKTIFKAN!"
+    admin: "Khusus admin kak ^_^",
+    group: "Khusus grup kak ^_^",
+    owner: "Khusus owner kak ^_^",
+    jadibot: "Khusus pengguna yang jadi bot kak ^_^",
+    botadmin: "Home-Alone harus menjadi admin kak ^_^",
+    daftar: "UPS! belum mendaftar silahkan ketik /verify",
+    nsfw: "Fitur ini belum di aktifkan!"
     }
 }
 

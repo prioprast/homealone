@@ -33,12 +33,11 @@ let { conn, text } = data
 *Kode pin :* ${sn}
 *total Player :* ${player.length}
 
-*Anda Sudah Resmi Menjadi Pengguna Dalam RixleBot*
+*Anda Sudah Resmi Menjadi Pengguna Dalam Home-Alone BOT WhatsApp*
 
 *Noted :*
 *Kode pin Kamu, Adalah Kode Saat Kamu Login Dalam Permainan Nanti,
 Jadi Jangan Sampai Hilang Saya Sarankan Anda Menyalinnya Kedalam Catatan Anda/Kasih Tanda Bintang 🌟 Pesan Ini, Atau Ketik ${userbot.prefix}cekpin*
-「 RIXLE-BOT 」*
 `
 m.reply(teks)
 }

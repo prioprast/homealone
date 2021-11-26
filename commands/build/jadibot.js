@@ -5,7 +5,7 @@ let qrcode = require('qrcode')
 module.exports = {
 name: ["jadibot"],
 type: ["session"],
-description: "menjadi bot",
+description: "menjadi bot sementara :v",
 utilisation: "#jadibot or #jadibot <session>",
 async execute(m) {
 const { conn, command, args } = data
@@ -25,7 +25,7 @@ else global.conns = []
       auth = true
     }
     conn.on('qr', async qr => {
-      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', 'Scan QR ini untuk jadi bot sementara\n\n1. Klik titik tiga di pojok kanan atas\n2. Ketuk WhatsApp Web\n3. Scan QR ini \nQR Expired dalam 20 detik', m)
+      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', 'Scan QR ini untuk jadi bot sementara\n\n1. Klik titik tiga di pojok kanan atas\n2. Ketuk perangkat bertaut\n3. Scan QR ini \nQR Expired dalam 20 detik', m)
       setTimeout(() => {
         parent.deleteMessage(m.chat, scan.key)
       }, 30000)

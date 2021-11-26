@@ -52,31 +52,20 @@ let capt = `*${me}*
 
 Hello ${name} ${ucapan()}
 
-*Ｂｏｔ ｓｔａｔｕｓ:*
-*Runtime:* ${count(uptime)}
-*Speed:* ${latensi.toFixed(4)} ms
-*Host:* ${os.hostname()}
-*Total Feature:* ${Object.keys(Events).length}
-*Group Chats:* ${groups.length}
-*Private Chats :* ${privat.length}
-*Ram:* ${ram2}
-*Device:* ${os.platform()}
-*Battery:* ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Ｃｈａｒｇｉｎｇ' : '⚡ Discharging' }` : 'Not detected'}
+Ｂｏｔ ｓｔａｔｕｓ:
+Waktu Aktif: ${count(uptime)}
+Total Grup: ${groups.length}
+Total Private Chat : ${privat.length}
+Status Battery: ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 Ｃｈａｒｇｉｎｇ' : '⚡ Discharging' }` : 'Not detected'}
 
-*Ｓｔａｔｕｓ ｏｔｈｅｒ:*
-*Islam Calender:* ${dateIslamic}
-*calender:* ${week} ${weton} ${date}
-
-*Found Bug?*
-${userbot.prefix}report text
-
-*My Rest Api's*
-https://rizapi.herokuapp.com/
-
-*Click the menu button below*`
+Ｓｔａｔｕｓ ｏｔｈｅｒ:
+${dateIslamic}
+Hari: ${week} 
+Tanggal: ${weton} ${date}
+`
 
 m.reply('Getting data to view Menu')
-conn.send2ButtonLoc( m.chat, await ( await fetch('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7EnNkFf8-jer8k6eT_gd9butzTdl-s91uPaEhL-ggw3-h8T90x-h8Z66&s=10')).buffer(), capt, userbot.packname, `Menu`, `menu`, `Rules`, `rules`, m)
+conn.send2ButtonImg( m.chat, await ( await fetch('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE7EnNkFf8-jer8k6eT_gd9butzTdl-s91uPaEhL-ggw3-h8T90x-h8Z66&s=10')).buffer(), capt, userbot.packname, `Click menu nya!`, `menu`, `Ingin tau Rules?`, `rules`, m)
 
 }
 }

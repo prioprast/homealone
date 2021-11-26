@@ -5,7 +5,7 @@ fetch('https://raw.githubusercontent.com/AlvioAdjiJanuar/citacita/main/citacita.
   .then(txt => arr = txt.split('\n'))
 
 module.exports = {
-name: ["cita cita", "Brando"],
+name: ["cita cita"],
 custom: true,
 owner:true,
 description: "Brando geming Bocil kematian",

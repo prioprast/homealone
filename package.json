@@ -1,7 +1,7 @@
 {
-  "name": "Rixle-Bot",
+  "name": "Hehe-Boe",
   "version": "1.8.1",
-  "description": "Subscribe Channel Youtube Arifi Razzaq OFFICIAL!",
+  "description": "HomeAlone release",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "linkgc": {
   "gc1": "https://chat.whatsapp.com/KGTBh3ocfzhJuveCHuCIXp"
   },
-  "author": "FearTeam",
+  "author": "Prio Prastyo",
   "bugs": {
     "url": "https://github.com/Rizxyu/RIXLE-BOT/issues"
   },

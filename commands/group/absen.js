@@ -29,12 +29,11 @@ ${conn.absen[id][2]}
 
 ┌〔 daftar absen 〕
 │ 
-├ Total: ${absen.length}
+├ Total: ${absen.length} user
 ${list}
 │ 
 └────
-
-@_Rizxyu`.trim()
+`.trim()
     await m.reply(caption)
 
 }
